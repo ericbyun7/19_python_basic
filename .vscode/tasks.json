@@ -1,0 +1,41 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "AI 펫 실행",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": [
+        "C:\\Users\\Omen\\Documents\\실험\\ai_pet.py"
+      ],
+      "options": {
+        "cwd": "C:\\Users\\Omen\\Documents\\실험"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "시계 실행",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": [
+        "C:\\Users\\Omen\\Documents\\실험\\digital_clock.py"
+      ],
+      "options": {
+        "cwd": "C:\\Users\\Omen\\Documents\\실험"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "기본 펫 실행",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "args": [
+        "C:\\Users\\Omen\\Documents\\실험\\simple_pet.py"
+      ],
+      "options": {
+        "cwd": "C:\\Users\\Omen\\Documents\\실험"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
