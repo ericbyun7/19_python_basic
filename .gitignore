@@ -1,7 +1,9 @@
 .venv/
+.ruff_cache/
 __pycache__/
 .ipynb_checkpoints/
 *.pyc
 27_실습/
 /words.txt
 /01_학습/words.txt
+/01_학습/27_파일사용하기.ipynb
